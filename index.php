@@ -7,6 +7,7 @@
     <title>JCET Library management system</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="dist/css/style.css">
+    <script src="dist/js/clock.js"></script>
 </head>
 <body>
 <div class="col-md-12">
@@ -14,20 +15,11 @@
                 <h1>Library Management System</h1>
             </div>
         </div>
+        
+<!-- clock div -->
+      
 
-<div class="clock">
-    <div class="hour">
-        <div class="hr" id="hr"></div>
-    </div>
-    <div class="min">
-        <div class="mn" id="mn"></div>
-    </div>    
-    <div class="sec">
-        <div class="sc" id="mn"></div>
-    </div>    
-</div>
-
-
+<!-- clock div end -->
 <div id="allTheThings">
 			<div id="member">
 				<a href="student/index.php">

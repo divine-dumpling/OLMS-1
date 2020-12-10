@@ -133,13 +133,7 @@ CREATE TABLE `teachers` (
   `salary` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
---
--- Dumping data for table `teachers`
---
 
-INSERT INTO `teachers` (`id`, `name`, `designation`, `salary`) VALUES
-(1, 'Abdul Mia', 'Senior Teacher', '10000'),
-(3, 'Momen Mia', 'Senior Teacher', '12000');
 
 --
 -- Indexes for dumped tables

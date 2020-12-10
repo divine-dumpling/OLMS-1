@@ -40,3 +40,13 @@
   .heading{
     width: 600px;
     margin: 100px auto auto;
+
+.clock
+{
+    width: 350px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background : url(clock.png);
+}    

@@ -14,6 +14,20 @@
                 <h1>Library Management System</h1>
             </div>
         </div>
+
+<div class="clock">
+    <div class="hour">
+        <div class="hr" id="hr"></div>
+    </div>
+    <div class="min">
+        <div class="mn" id="mn"></div>
+    </div>    
+    <div class="sec">
+        <div class="sc" id="mn"></div>
+    </div>    
+</div>
+
+
 <div id="allTheThings">
 			<div id="member">
 				<a href="student/index.php">

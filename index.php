@@ -11,7 +11,7 @@
 </head>
 <body>
 <!-- clock div -->
-<iframe src="http://free.timeanddate.com/clock/i7l2qt0g/n438/tlin/fn7/fs20/tct/pct/ftb/th2" align="right" frameborder="0" width="129" height="30" allowTransparency="true"></iframe>
+<iframe src="http://free.timeanddate.com/clock/i7l2qt0g/n438/tlin/fn7/fs20/tct/pct/ftb/th2" frameborder="0" width="300" height="30" allowTransparency="true" align="right"></iframe>
 <!-- clock div end -->
 <div class="col-md-12">
             <div class="heading">

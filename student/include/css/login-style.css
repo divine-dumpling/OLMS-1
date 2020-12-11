@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    background: #000;
+}
+
+.background{
+    background: url(../images/login-bg.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+}
+
+.text, .box{
+    margin-top: 45vh;
+    flex: 1;
+}
+
+.text{
+    margin-left: 10%;
+    font-weight: 300px;
+}
+
+.box{
+    margin-left: 1%;
+    margin-right: 40%;
+}
+
+.text h1{
+    font-size: 80px;
+    color: #fff;
+    font-weight: 700;
+    
+}
+
+.text p{
+    font-size: 25px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.text p {
+    color: #fff;
+    font-weight: 700;
+}
+
+.text a{
+    color: rgb(216, 105, 71);
+    font-weight: 700;
+}
+
+.form{
+    background: transparent;
+    color: #fff;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    font-weight: bold;
+    
+}
+
+input{
+    margin: 20px 0;
+    padding: 10px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    
+}
+
+.email, .password{
+    border-bottom: 1px solid #fff;
+    font-weight: bold;
+}
+
+.button{
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 18px;
+    width: 80%;
+}
+
+.button:hover{
+    background: #fff;
+    color: #000;
+}

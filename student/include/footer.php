@@ -16,7 +16,7 @@ header("location:login.php");
     $query = mysqli_query($conn, "SELECT * FROM settings");
     while($result = mysqli_fetch_assoc($query)):
         ?>
-        <strong>&copy; 2019-<?php echo date('Y');?> <a href="#"><?= $result['name']?></a>.</strong> All rights reserved.
+        <strong>&copy; 2020-<?php echo date('Y');?> <a href="#"><?= $result['name']?></a>.</strong> All rights reserved.
     <?php endwhile;?>
 </footer>
 </div>

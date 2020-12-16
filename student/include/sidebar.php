@@ -35,7 +35,7 @@ if(!isset($_SESSION['student_login'])){
                 <img src="../dist/images/students/<?= $result['img']?>" class="img-circle elevation-2" alt="User Image">
             </div>
             <div class="info">
-                <a href="profile.php" class="d-block"><?= $result['f_name'].' '.$result['l_name']?></a>
+                <a href="profile.php" class="d-block"><?= $result['fname'].' '.$result['lname']?></a>
             </div>
         </div>
 

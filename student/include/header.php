@@ -17,7 +17,7 @@ $id = $_SESSION['student_id'];
  $query = mysqli_query($conn, "SELECT * FROM students WHERE id='$id'");
  while($student_info= mysqli_fetch_assoc($query)):
 ?>
-    <title><?= $student_info['f_name']?> <?= $student_info['l_name']?></title>
+    <title><?= $student_info['fname']?> <?= $student_info['lname']?></title>
 <?php endwhile;?>
 
     <!-- Font Awesome Icons -->
@@ -54,8 +54,8 @@ $id = $_SESSION['student_id'];
             width: 150px;
             height: 150px;
             position: absolute;
-            top: calc(50vh - 75px);
-            left: calc(50vw - 75px);
+            top: calc(40vh - 65px);
+            left: calc(42vw - 68px);
         }
 
         .loader:before, .loader:after{
@@ -73,25 +73,13 @@ $id = $_SESSION['student_id'];
         .loader:before{
             animation-delay: .5s;
         }
-        @keyframes loader {
-            0%{
-                transform: scale(0);
-                opacity: 0;
-            }
-            50%{
-                opacity: 1;
-            }
-            100%{
-                transform: scale(1);
-                opacity: 0;
-            }
-        }
+        
 
     </style>
 </head>
 <body class="hold-transition sidebar-mini">
 <div class="loader_bg">
-    <div class="loader"></div>
+    <div class="loader"><img src="loader1.gif"/></div>
 </div>
 <div class="wrapper">
 
@@ -111,7 +99,7 @@ $id = $_SESSION['student_id'];
         <ul class="navbar-nav ml-auto">
             <?php
                 $id = $_SESSION['student_id'];
-                $query = mysqli_query($conn, "SELECT * FROM issue_book WHERE student_id = '$id' && return_date = ''");
+                $query = mysqli_query($conn, "SELECT * FROM issued_book WHERE student_id = '$id' && return_date = ''");
                 $tt_issue_books = mysqli_num_rows($query);
             ?>
             <!-- Notifications Dropdown Menu -->

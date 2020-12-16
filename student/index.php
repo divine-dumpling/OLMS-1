@@ -28,7 +28,7 @@
                     <?php
                     $id = $_SESSION['student_id'];
                     $books_item = mysqli_query($conn, "SELECT * FROM books");
-                    $query = mysqli_query($conn, "SELECT * FROM issue_book WHERE student_id = '$id' && return_date = ''");
+                    $query = mysqli_query($conn, "SELECT * FROM issued_book WHERE student_id = '$id' && return_date = ''");
                     $department = mysqli_query($conn, "SELECT * FROM departments");
                     $tt_issue_books = mysqli_num_rows($query);
                     $tt_department = mysqli_num_rows($department);

@@ -25,6 +25,7 @@
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
     <link rel="stylesheet" href="../dist/css/parsley-custom.css">
     <!-- css code do not edit -->
+    <link rel="shortcut icon" type="image/x-icon" href="favicon/favicon.ico">
     <style>                                   
         .sidebar-dark-primary .nav-sidebar > .nav-item > .nav-link.active, .sidebar-light-primary .nav-sidebar > .nav-item > .nav-link.active {
             background-color: #0a4586;

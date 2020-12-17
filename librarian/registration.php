@@ -22,7 +22,7 @@ include("include/registerfunction.php");
     <link rel="stylesheet" href="../asset/dist/css/adminlte.min.css">
     <!-- Google Font: Source Sans Pro -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
-   
+    <link rel="shortcut icon" type="image/x-icon" href="include/favicon/fav.png">
     <!-- css code -->
     <style>
         /**{*/
@@ -33,10 +33,10 @@ include("include/registerfunction.php");
             height: 100%;
         }
         .bg-image{
-            background-image: url("../dist/images/background/bg.png");
+            background-image: url("include/images/signup_bg.jpg");
             filter: blur(5px);
             -webkit-filter: blur(5px);
-            height: 620px;
+            height: 920px;
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -68,7 +68,7 @@ include("include/registerfunction.php");
 <div class="container main">
     <div class="row">
         <div class="header">
-            <h1 class="text-white ml-4">Librarian Registration</h1>
+            <h1 class="text-white ml-4"><b>Librarian Registration</b></h1>
             <!-- alert msg when registrtation is success and error -->
             <?php
             if(isset($success)){

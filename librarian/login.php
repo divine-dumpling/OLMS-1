@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="../asset/dist/css/adminlte.min.css">
     <!-- Google Font: Source Sans Pro -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="include/favicon/favicon.ico">
     <style>
         /**{*/
         /*    margin: 0px;*/
@@ -32,13 +33,10 @@
             height: 100%;
         }
         .bg-image{
-            background-image: url("../dist/images/background/bg.png");
-
-            /*background-size: cover;*/
-
+            background-image: url("include/images/login_bg.jpg");
             filter: blur(5px);
             -webkit-filter: blur(5px);
-            height: 620px;
+            height: 920px;
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -69,7 +67,7 @@
 <div class="container main">
     <div class="row">
         <div class="header">
-            <h1 class="text-white ml-4">Librarian Login</h1>
+            <h1 class="text-white ml-4"><b>Librarian Login</b></h1>
             <?php
             if(isset($error)){
                 ?>

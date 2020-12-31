@@ -10,6 +10,8 @@ header("location:login.php");
     <!-- To the right -->
     <div class="float-right d-none d-sm-inline">
         <strong><a href="https://github.com/suberkhazi">Developed By Suber khaji</a></strong>
+        <strong><a href="https://github.com/divine-dumpling">, Ridhima.S.Tigadi</a></strong>
+        <strong><a href="https://github.com/suberkhazi">, Sandesh fernandez</a></strong>
     </div>
     <?php
     date_default_timezone_set('Asia/Dhaka');
